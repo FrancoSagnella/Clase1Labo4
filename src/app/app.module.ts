@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BienvenidoComponent } from './bienvenido/bienvenido.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BienvenidoComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    CalculadoraComponent
   ],
   imports: [
     FormsModule,

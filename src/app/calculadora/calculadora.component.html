@@ -1,0 +1,10 @@
+<input type="text" [(ngModel)]=numUno />
+<input type="text" [(ngModel)]=numDos />
+<button (click)=miMetodo()>Calcular</button>
+<button (click)=limpiar()>Limpiar</button>
+<br>
+<label>Suma</label><br>
+<input readonly type="text" [(ngModel)]=resultadoSuma /><br>
+<label>Promedio</label><br>
+<input readonly type="text" [(ngModel)]=resultadopromedio />
+<br><a routerLink="/login">Cerrar sesion</a>
